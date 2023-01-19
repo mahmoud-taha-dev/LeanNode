@@ -19,10 +19,7 @@ const CountryForm = ({onFinish, initialValues = {}, buttonText}) => {
               {
                 required: true,
                 message: 'Please fill the input'
-              }, {
-                pattern: /^[A-Za-z\s]*$/,
-                message: 'The input is not valid!',
-              }
+              },
             ]}
         >
           <Input/>
@@ -31,11 +28,7 @@ const CountryForm = ({onFinish, initialValues = {}, buttonText}) => {
             label="Capital"
             name="capital"
             rules={[
-              {required: true, message: 'Please fill the input'},
-              {
-                pattern: /^[A-Za-z\s]*$/,
-                message: 'The input is not valid!',
-              }
+              {required: true, message: 'Please fill the input'}
             ]}
         >
           <Input/>
