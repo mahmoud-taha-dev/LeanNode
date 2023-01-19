@@ -14,3 +14,8 @@
 .ant-input-number {
   width: 100%;
 }
+
+.ant-pagination {
+  width: fit-content;
+  margin: 40px auto 0 !important;
+}
